@@ -3783,3 +3783,8 @@ input, select, textarea {
 			}
 
 		}
+
+		img.skill {
+			max-height: 180px;
+			max-width: 180px;
+		}
