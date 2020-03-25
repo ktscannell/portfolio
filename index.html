@@ -22,10 +22,14 @@
 						<h1>Kieran Scannell</h1>
 						<p>
 							Software Engineer <br/>
-							<a href="mailto:kieran.t.scannell@gmail.com">
+							<a 
+								href="mailto:kieran.t.scannell@gmail.com"
+								target="_blank">
 								kieran.t.scannell@gmail.com
 							</a> <br/>
-							<a href="https://docs.google.com/document/d/1wkgBENEMYDzaEPpFvdBjuTSelXXeNxq5Rv72Lw2t5cs/export?format=pdf">
+							<a 
+								href="https://docs.google.com/document/d/1wkgBENEMYDzaEPpFvdBjuTSelXXeNxq5Rv72Lw2t5cs/export?format=pdf"
+								target="_blank">
 								Resum&eacute;
 							</a>
 						</p>
@@ -33,14 +37,16 @@
 							<li>
 								<a 
 									href="https://github.com/ktscannell" 
-									class="icon brands fa-github alt">
+									class="icon brands fa-github alt"
+									target="_blank">
 									<span class="label">GitHub</span>
 								</a>
 							</li>
 							<li>
 								<a 
 									href="https://www.linkedin.com/in/kieran-scannell-31326574/" 
-									class="icon brands fa-linkedin-in alt">
+									class="icon brands fa-linkedin-in alt"
+									target="_blank">
 									<span class="label">LinkedIn</span>
 								</a>
 							</li>
@@ -51,8 +57,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">About Me</a></li>
-							<li><a href="#first">Skills</a></li>
-							<li><a href="#second">Projects</a></li>
+							<li><a href="#first">Projects</a></li>
+							<li><a href="#second">Skills</a></li>
 						</ul>
 					</nav>
 
@@ -76,7 +82,66 @@
 							</section>
 
 						<!-- First Section -->
-							<section id="first" class="main special">
+							<section id="first" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>ChannelChat</h2>
+											<h3>Slack clone built with Ruby on Rails, PostgreSQL, React, and Redux</h3>
+										</header>
+										<p>
+											As the sole developer, I built this full stack web app from scratch. It provides the core functionality of the
+											original by allowing
+											users to post and receive messages in channels, and to send and receive direct messages to and from other users
+											or groups
+											of users.
+											<br />
+											<a href="https://channel-chat-heroku.herokuapp.com/" target="_blank">
+												Live Site
+											</a>
+											&nbsp; &bull; &nbsp;
+											<a href="https://github.com/ktscannell/channelchat" target="_blank">
+												GitHub Repo
+											</a>
+										</p>
+									</div>
+									<span class=""><img class="project" src="images/channelchat.png" alt="" /></span>
+								</div>
+							</section>
+
+							<section class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>
+												Simulation of the Quantum Mechanical <br />
+												Particle-in-a Box
+											</h2>
+											<h3>Vanilla JavaScript, Node.js, webpack, HTML5 Canvas</h3>
+										</header>
+										<p>
+											The simulated equations are
+											solutions for the time dependent Schrodinger equation in one dimension. Users can dynamically select the the value of
+											'N' used to calculate the energy level.
+											
+											I used ES6 javascript classes along with Node.js and webpack to build out the logic of the simulation, then rendered and
+											animated it in an HTML5 canvas element.
+											<br />
+											<a href="https://channel-chat-heroku.herokuapp.com/" target="_blank">
+												Live Site
+											</a>
+											&nbsp; &bull; &nbsp;
+											<a href="https://github.com/ktscannell/channelchat" target="_blank">
+												GitHub Repo
+											</a>
+										</p>
+									</div>
+									<span class=""><img class="project" src="images/channelchat.png" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
 								<header class="major">
 									<h2>Skills</h2>
 								</header>
@@ -167,11 +232,6 @@
 										</span>
 									</li>
 								</ul>
-							</section>
-
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								
 							</section>
 
 					</div>
